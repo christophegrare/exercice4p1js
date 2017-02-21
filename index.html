@@ -12,13 +12,12 @@
     <button  name="valider" id="valider" onclick="check()">Valider</button>
   </form>
   <script type="text/javascript">
+  // la fonction check permet de recuperer les informations du formulaire & de l'afficher
   function check(){
     var name = document.getElementById('nom').value;
     var userName = document.getElementById('prenom').value;
     var country = document.getElementById('ville').value;
-    alert('Nom : ' + name
-      +'\nPrénom : ' + userName
-      +'\nVille : ' + country);
+    alert('Nom : ' + name +'\nPrénom : ' + userName +'\nVille : ' + country);
   };
   </script>
 </body>
